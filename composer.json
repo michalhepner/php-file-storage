@@ -1,0 +1,21 @@
+{
+    "name": "michalhepner/php-file-storage",
+    "type": "library",
+    "description": "Provides a simple file storage abstraction layer in PHP.",
+    "license": "AGPL-3.0-or-later",
+    "autoload": {
+        "psr-4": {
+            "MichalHepner\\PhpFileStorage\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Michał Hepner",
+            "email": "michal.hepner@gmail.com"
+        }
+    ],
+    "require": {
+        "symfony/filesystem": "^5|^6",
+        "christian-riesen/base32": "^1.6"
+    }
+}
